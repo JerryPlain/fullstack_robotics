@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Full-Stack Robotics — Shijie Zhou</title>
-  <meta name="description" content="Shijie Zhou's field notes on becoming a full-stack roboticist: hardware, control, RL, locomotion, manipulation, perception, VLA and world models.">
+  <meta name="description" content="Shijie Zhou's learning record: what each project taught me, filed by field, and the roadmap of how I am becoming a full-stack roboticist.">
   <meta name="theme-color" content="#f4f6f8">
   <link rel="icon" href="assets/sz-mark.svg" type="image/svg+xml">
   <script>
@@ -21,7 +21,6 @@
 </head>
 <body>
   <a class="skip-link" href="#app">Skip to content</a>
-  <canvas id="stars" aria-hidden="true"></canvas>
 
   <header class="topbar" id="topbar">
     <i class="progress" id="progress" aria-hidden="true"></i>
@@ -30,10 +29,8 @@
       <span class="brand-name">Full-Stack Robotics</span>
     </a>
     <nav class="topbar-nav" aria-label="Site">
-      <a class="topbar-link" data-nav="learn" href="#/learn">Learn</a>
-      <a class="topbar-link" data-nav="frontier" href="#/frontier">Frontier</a>
-      <a class="topbar-link" data-nav="papers" href="#/papers">Papers</a>
-      <a class="topbar-link" data-nav="log" href="#/log">Log</a>
+      <a class="topbar-link" data-nav="map" href="#/">Roadmap</a>
+      <a class="topbar-link" data-nav="k" href="#/k">Knowledge</a>
       <a class="topbar-link hide-sm" href="https://jerryplain.github.io/">Home ↗</a>
       <button class="icon-btn" id="searchBtn" aria-label="Search (press /)" title="Search  /">
         <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><line x1="15.5" y1="15.5" x2="21" y2="21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
@@ -69,7 +66,7 @@
 
   <div class="search" id="search" hidden>
     <div class="search-box" role="dialog" aria-modal="true" aria-label="Search">
-      <input id="searchInput" type="search" placeholder="搜课程、论文…  try “PPO”, “sim-to-real”, “π0”" autocomplete="off" spellcheck="false">
+      <input id="searchInput" type="search" placeholder="搜项目、笔记、要记住的基础…  try “CEM”, “speckle”, “Holm”" autocomplete="off" spellcheck="false">
       <ol class="search-results" id="searchResults"></ol>
       <p class="search-hint"><kbd>↑</kbd><kbd>↓</kbd> 选择 · <kbd>Enter</kbd> 打开 · <kbd>Esc</kbd> 关闭</p>
     </div>
@@ -79,10 +76,7 @@
   <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.10.0/build/highlight.min.js"></script>
   <script src="js/site.js"></script>
-  <script src="js/curriculum.js"></script>
-  <script src="js/papers.js"></script>
-  <script src="js/frontier.js"></script>
-  <script src="js/stars.js"></script>
+  <script src="js/journal.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>
